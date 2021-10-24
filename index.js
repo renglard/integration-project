@@ -11,14 +11,12 @@ const workerIDsToMondayIDs = {
   3243456: 1822008703,
 };
 var myHeaders1 = new Headers();
-myHeaders1.append("Authorization", "Bearer", "addyourtokenhere");
+myHeaders1.append("Authorization", "Bearer <INSERT_TOKEN>");
 myHeaders1.append("Content-Type", "application/json");
-myHeaders1.append(
-  "Cookie",
-  "__cf_bm=npBeLrRC1NDRxqAupaxAJl2cMVNqz_95W6jg.1O_TgA-1634999877-0-Ac14C88xVzelq8yL0zM3CGHfduIPi52DRIcHZsZ+P5hiLEDzKCbaHS4UgMedRxl5hufQVn8DuFI3aiU1ICdoObg="
-);
+myHeaders1.append("Access-Control-Allow-Origin", "http://localhost:3000");
+myHeaders1.append("Access-Control-Allow-Credentials", "true");
 var myHeaders2 = new Headers();
-myHeaders2.append("Authorization", "Bearer", "addyourtokenhere");
+myHeaders2.append("Authorization", "Bearer <INSERT_TOKEN>");
 myHeaders2.append("Content-Type", "application/json");
 
 async function getUser(mondayId) {
