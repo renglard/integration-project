@@ -1,0 +1,47 @@
+body {
+  background-color: #eee !important;
+}
+
+form {
+  margin-top: 30vh;
+  background-color: #fff;
+  padding: 30px 60px 30px 60px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+input.form-control {
+  margin: 10px 0 15px 0;
+  padding: 5px 0 5px 5px;
+  width: 20vw;
+}
+
+input.form-control::placeholder {
+  font-style: italic;
+}
+
+input.form-control:focus {
+  border: 1px solid #ced4da;
+  box-shadow: none;
+}
+
+#start {
+  margin-right: 6px;
+  width: 100px;
+}
+
+#end {
+  margin-left: 6px;
+  width: 100px;
+}
+
+#hello-fairwell {
+  color: grey;
+  font-weight: 500;
+}
+
+.hidden {
+  display: none;
+}
