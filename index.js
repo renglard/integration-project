@@ -11,20 +11,14 @@ const workerIDsToMondayIDs = {
   3243456: 1822008703,
 };
 var myHeaders1 = new Headers();
-myHeaders1.append(
-  "Authorization",
-  "Bearer eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjEyOTg3NjkyNSwidWlkIjoyNTQ3Njc4MCwiaWFkIjoiMjAyMS0xMC0yMlQxMjoyMzozOS4xNTZaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTAyMzgxNDQsInJnbiI6InVzZTEifQ.2Cs_O1sxAPdk3l0gHW7pIIzy8fC462kmJO56LaAb4_I"
-);
+myHeaders1.append("Authorization", "Bearer", "addyourtokenhere");
 myHeaders1.append("Content-Type", "application/json");
 myHeaders1.append(
   "Cookie",
   "__cf_bm=npBeLrRC1NDRxqAupaxAJl2cMVNqz_95W6jg.1O_TgA-1634999877-0-Ac14C88xVzelq8yL0zM3CGHfduIPi52DRIcHZsZ+P5hiLEDzKCbaHS4UgMedRxl5hufQVn8DuFI3aiU1ICdoObg="
 );
 var myHeaders2 = new Headers();
-myHeaders2.append(
-  "Authorization",
-  "Bearer eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjEyOTg3NjkyNSwidWlkIjoyNTQ3Njc4MCwiaWFkIjoiMjAyMS0xMC0yMlQxMjoyMzozOS4xNTZaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTAyMzgxNDQsInJnbiI6InVzZTEifQ.2Cs_O1sxAPdk3l0gHW7pIIzy8fC462kmJO56LaAb4_I"
-);
+myHeaders2.append("Authorization", "Bearer", "addyourtokenhere");
 myHeaders2.append("Content-Type", "application/json");
 
 async function getUser(mondayId) {
